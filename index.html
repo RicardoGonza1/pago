@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>menu</title>
+</head><script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="menu.js"></script>
+<link rel="stylesheet" type="text/css" href="menu.css">
+<body>
+  <nav class="menu">
+    <label class="logo">FastRed</label>
+<ul class="menu_items">
+  <li class="active"><a href="#">hola</a></li>
+  <li><a href="#">contacto</a></li>
+  <li><a href="#">yes</a></li>
+  <li><a href="#">como</a></li>
+  <li><a href="#">bajar</a></li>
+</ul>
+<span class="btn_menu">
+  <i class="fa fa-bars"></i></nav>
+</span>
+</body>
+</html>
+
+<!--<!DOCTYPE html>
+<html>
+<head>
 	<meta charset="utf-8" lang="es">
 	<title>FastRed</title>
-  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="styles.css">
+  
+	<link rel="stylesheet" href="menu.css">
 	<link rel="shortcut icon" type="image/png" href="logo.png">
+  <script src="menu.js"></script>
 </head>
-<!-- MAIN WRAPPER -->
-  <div id="wrapper">
-
-    <!-- BANNER WRAPPER -->
-    <div id="banner-wrapper">
-      <header>
+ MAIN WRAPPER -->
+  
         
-        <style type="text/css">
+          
 
-        </style>
-
-          <nav>
+         <!-- <nav class="menu">
+          
            
-            <ul>
+            <ul class="menu-items">
               <li>
                 <a href="index.html">
                   Inicio
@@ -41,29 +60,31 @@
                   Servicios
                 </a>
                
-              </li>-->
+              </li>
              <li>
                 <a href="solicitar_instalacion.html">
                   Solicitar <br>  instalacion
                 </a>
                
               </li>
-              <li>
-                <div class="contenedor">
-    <nav>
+            </ul></nav>
+            <span class="btn-menu">
+              <i class="fa fa-bars"></i>
+            </span>
+              
     
-        <!--<button class="switch" id="switch">
-          <span><i class="fas fa-sun"></i></span>
-          <span><i class="fas fa-moon"></i></span>
-        </button>
-      </div>
-    </nav>
-                  
+    
+        
+        </div>
+        <script type="text/javascript">
+          const iconoMenu = document.querySelector('#icono-menu'),
+          menu = document.querySelector('#menu');
 
-              </li>
-            </ul>
-          </nav>
-        </div>-->
+          iconoMenu.addEventListener('click' , (e) => {
+            menu.classList.toogle('active');
+          document.body.classList.toogle('opacity');})
+          
+        </script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <a href="https://wa.me/573142425831" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
