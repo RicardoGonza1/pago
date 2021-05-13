@@ -10,8 +10,8 @@ body{
 }
 .menu{
 	background-color: red;
-	height: auto;
-	width: 100vw;
+	height: 40px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
